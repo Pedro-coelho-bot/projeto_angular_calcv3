@@ -12,7 +12,7 @@ resp: number = 0;
 
 onclicksum(){
   this.resp = this.num1 + this.num2;
-  
+
 }
 onclicksub(){
   this.resp = this.num1 - this.num2;
@@ -24,6 +24,10 @@ onclickdiv(){
 
 onclickmult(){
   this.resp = this.num1 * this.num2;
+}
+
+onclickresp(){
+  this.resp = 0;
 }
 
 
