@@ -7,6 +7,13 @@
  <button (click)="onclickdiv()">divisão</button>
  <button (click)="onclickresp()">apagar resultado</button>
   {{resp}}
+  <div>{{ resp }}</div>
+  <div *ngIf="historico.length > 0">
+    <h2>Histórico:</h2>
+    <ul>
+      <li *ngFor="let item of historico">{{ item }}</li>
+    </ul>
+  </div>
 
 
 </form>
